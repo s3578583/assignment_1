@@ -2,7 +2,7 @@
 
 public class AbstractRMITStaff 
 {
-
+    //variables of staff
 	private String staffID;
 	private  String firstName;
 	private  String lastName;
@@ -11,6 +11,7 @@ public class AbstractRMITStaff
 	private String phone;
 	private int TFN;
 	
+	//constructor 
 	public AbstractRMITStaff(String staffID,String firstName, String lastName, String address, String email, String phone, int tfn)
 	{
 		this.staffID = staffID;
@@ -76,7 +77,7 @@ public class AbstractRMITStaff
 	}
 
 	
-	
+	//prints out the staff's full name, address, email. phone, TFN of inputed record.
 	public String toString()
 	{
 	return String.format("Full Name: %s %s \nAddress: %s \nEmail: %s \nPhone: %s \nTFN: %s",getFirstName(),getLastName(),getAddress(),
