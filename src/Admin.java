@@ -12,8 +12,10 @@ public class Admin extends AbstractRMITStaff
 	private int counter = 1;
 	CasualStaff staff[] = new CasualStaff[counter];
 
+	
+	//inserting new staff
 	public void hireStaff()
-	{
+	{ 
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter staff ID:");
