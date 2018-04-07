@@ -13,7 +13,7 @@ public class Admin extends AbstractRMITStaff
 	CasualStaff staff[] = new CasualStaff[counter];
 
 	
-	//inserting new staff
+	//inserting new staff details
 	public void hireStaff()
 	{ 
 
@@ -34,7 +34,8 @@ public class Admin extends AbstractRMITStaff
 
 		System.out.println("Enter tax file number:");
 		int tfn = scan.nextInt();
-
+		
+        //creates new staff 
 		staff[counter - 1] = new CasualStaff(id, firstName, lastName, address, email, phone, tfn);
 		System.out.println("New staff member successfully added");
 		counter++;
@@ -45,7 +46,8 @@ public class Admin extends AbstractRMITStaff
 	{
 	
 	}
-
+    
+	//prints staff details 
 	public void printStaff()
 	{
 
