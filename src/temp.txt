@@ -1,6 +1,0 @@
-User login Details
-Username password
-admin 1234
-casual 5678
-approval 9999
-course 3333
